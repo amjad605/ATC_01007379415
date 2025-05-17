@@ -16,7 +16,6 @@ This is the **frontend** of Clicket, a scalable Event Management Web App built w
 ## 🧰 Tech Stack
 
 - React + TypeScript
-- Redux Toolkit
 - TailwindCSS
 - React Router
 - i18next
