@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+# 🎨 Clicket Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of Clicket, a scalable Event Management Web App built with:
 
-Currently, two official plugins are available:
+- **React.js (TypeScript)**
+- **Redux Toolkit**
+- **TailwindCSS**
+- **i18n** for multi-language support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Browse and book events
+- Responsive UI with Dark/Light Mode
+- Multi-language support (English, etc.)
+- API integration with the backend
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧰 Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- React + TypeScript
+- Redux Toolkit
+- TailwindCSS
+- React Router
+- i18next
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository and go to the frontend folder:
+
+   ```bash
+   git clone https://github.com/your-username/clicket.git
+   cd clicket/frontend
+   npm install
+   npm run dev
+
+
+## 📁 Project Directory Structure
+
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+src/
+├── components/    # Reusable UI components
+├── pages/         # Application pages (e.g., Home, Event Details)
+├── store/         # Redux store setup and slices
+├── hooks/         # Custom React hooks
+├── locales/       # i18n language translation files
+├── App.tsx        # Root component with routing
+└── main.tsx       # Entry point for the React app
 ```
