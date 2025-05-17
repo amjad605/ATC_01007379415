@@ -15,7 +15,6 @@
 
 **Frontend**  
 - React.js (TypeScript)  
-- Redux  
 - TailwindCSS  
 
 **Backend**  
