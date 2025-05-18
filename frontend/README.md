@@ -35,11 +35,14 @@ This is the **frontend** of Clicket, a scalable Event Management Web App built w
 
 ```
 src/
+├── assets/        # Images and Logo
 ├── components/    # Reusable UI components
+├── context/       # Contexts For Handling auth
 ├── pages/         # Application pages (e.g., Home, Event Details)
-├── store/         # Redux store setup and slices
 ├── hooks/         # Custom React hooks
 ├── locales/       # i18n language translation files
+├── routes/        # Two Routes (admin ,  user)
+├── utils/         # uitls functions
 ├── App.tsx        # Root component with routing
 └── main.tsx       # Entry point for the React app
 ```
