@@ -32,11 +32,17 @@ This is the **backend** of Clicket, built with:
     cd clicket/backend
     npm install
 
-#Create a .env file and add
+## Create a .env file and add
+```
 PORT=5000
+NODE_ENV=development
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME =your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
+```
    ```bash
        npm run dev
    ```
@@ -44,13 +50,13 @@ JWT_SECRET=your_jwt_secret
 ## 📁 Backend Project Structure
 ```
 src/
-├── config/        # Configuration files (e.g., DB, environment)
-├── controllers/   # Logic for handling requests and responses
-├── middlewares/   # Custom Express middlewares (e.g., auth, error handler)
-├── models/        # Mongoose schemas and models
-├── routes/        # Route definitions for different resources
-├── utils/         # Utility functions and helpers
-└── index.ts       # Entry point of the Express server
+├── auth/
+├── bookings/   
+├── events/  
+├── users/
+├── utils/        
+├── appRouter.ts        
+└── index.ts       
 ```
 
 
