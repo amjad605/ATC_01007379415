@@ -22,7 +22,8 @@
 - Express.js (TypeScript)  
 - MongoDB  
 
-**Deployment**  
+**Deployment**
+- Frontend hosted on [Vercel](https://clicket-front.vercel.app)
 - Backend hosted on [Railway](https://clicket.up.railway.app)  
 
 ## 🔹 Key Features
@@ -37,7 +38,7 @@
 
 ## 🔹 Live Demo
 
-
+- 🌐 **Frontend**: [https://clicket-front.vercel.app](https://clicket-front.vercel.app)
 - ⚙️ **Backend API**: [https://clicket.up.railway.app](https://clicket.up.railway.app)
 
 ---
