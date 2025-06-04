@@ -45,7 +45,7 @@
 
 ## 🛠 Technical Skills
 
-- **Frontend**: React, TypeScript, Redux, TailwindCSS  
+- **Frontend**: React, TypeScript, TailwindCSS  
 - **Backend**: Node.js, Express.js, MongoDB, RESTful APIs  
 - **DevOps**: Railway (Backend Deployment), Git  
 - **UI/UX**: Responsive Design, i18n, Dark Mode  
